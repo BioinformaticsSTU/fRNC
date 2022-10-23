@@ -14,7 +14,7 @@ The attachment and reference manual of this package is available in the docs dir
 
 ## Getting Started
 ### Step 1. Install package dependencies
-Enter the R function (install_dependpackages) in the R below and run it. some messages will appear to inform you whether or not any R packages dependencies have been installed.
+Enter the R function (install_dependpackages) in the R below and run it. Some messages will appear to inform you whether or not any R packages dependencies have been installed.
 ```R
      install_dependpackages <- function(){
          metr_pkgs <- c("limma", "ggpubr", "XML", "igraph", "multtest","RBGL","edgeR")  
@@ -78,7 +78,7 @@ Save global and local module results respectively. And, the result was saved as 
 saveNetwork(res.list_global$module,file="ceRNA_module_transcription",type = "XGMML")
 savelocalM(res.list_local)
 ```
-the RNC relevant to BRCA at protein level can be detected with the fRNC for case 2.
+The RNC relevant to BRCA at protein level can be detected with the fRNC for case 2.
 The datasets contain 852 cancer samples and 18 normal samples, simultaneously measured all mRNA, miRNA, and protein expression. To save running time, we processed in advance to perform 
 differential expression analysis and store internal data.
 ```R
